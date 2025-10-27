@@ -6,9 +6,9 @@ using System.Web.UI.WebControls;
 
 namespace GridViewApplication
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class Default : System.Web.UI.Page
     {
-        private readonly string connectionString = @"Data Source=LAPTOP-7BT0GOFM;Initial Catalog=TestDB;Integrated Security=True";
+        private readonly string connectionString = @"Data Source=DESKTOP-HBKRC86;Initial Catalog=TestDB;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
